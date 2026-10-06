@@ -1,0 +1,69 @@
+{
+  "Department": {
+    "pk": "dept_id",
+    "fields": {
+      "dept_name": "text",
+      "hod_name": "text"
+    }
+  },
+  "Student": {
+    "pk": "student_id",
+    "fields": {
+      "name": "text",
+      "dept_id": "Department",
+      "cgpa": "number",
+      "email": "email"
+    }
+  },
+  "Company": {
+    "pk": "company_id",
+    "fields": {
+      "name": "text",
+      "sector": "text",
+      "hr_contact": "email"
+    }
+  },
+  "Drive": {
+    "pk": "drive_id",
+    "fields": {
+      "company_id": "Company",
+      "role": "text",
+      "ctc": "number",
+      "drive_date": "date",
+      "min_cgpa": "number"
+    }
+  },
+  "Application": {
+    "pk": "application_id",
+    "fields": {
+      "student_id": "Student",
+      "drive_id": "Drive",
+      "status": [
+        "Applied",
+        "Interview",
+        "Selected",
+        "Rejected"
+      ]
+    }
+  },
+  "Interview": {
+    "pk": "interview_id",
+    "fields": {
+      "application_id": "Application",
+      "round_no": "number",
+      "result": [
+        "Pending",
+        "Passed",
+        "Failed"
+      ]
+    }
+  },
+  "Placement": {
+    "pk": "placement_id",
+    "fields": {
+      "application_id": "Application",
+      "package": "number",
+      "placement_date": "date"
+    }
+  }
+}

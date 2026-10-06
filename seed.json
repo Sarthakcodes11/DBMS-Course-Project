@@ -1,0 +1,189 @@
+{
+  "Department": [
+    {
+      "dept_id": 1,
+      "dept_name": "CSE",
+      "hod_name": "Department Coordinator"
+    },
+    {
+      "dept_id": 2,
+      "dept_name": "ECE",
+      "hod_name": "Department Coordinator"
+    },
+    {
+      "dept_id": 3,
+      "dept_name": "IT",
+      "hod_name": "Department Coordinator"
+    },
+    {
+      "dept_id": 4,
+      "dept_name": "ME",
+      "hod_name": "Department Coordinator"
+    }
+  ],
+  "Student": [
+    {
+      "student_id": 1,
+      "name": "Aarav Mehta",
+      "dept_id": 1,
+      "cgpa": 8.9,
+      "email": "aarav@example.edu"
+    },
+    {
+      "student_id": 2,
+      "name": "Sara Iyer",
+      "dept_id": 2,
+      "cgpa": 8.2,
+      "email": "sara@example.edu"
+    },
+    {
+      "student_id": 3,
+      "name": "Rohan Das",
+      "dept_id": 1,
+      "cgpa": 7.8,
+      "email": "rohan@example.edu"
+    },
+    {
+      "student_id": 4,
+      "name": "Priya Nair",
+      "dept_id": 3,
+      "cgpa": 9.1,
+      "email": "priya@example.edu"
+    },
+    {
+      "student_id": 5,
+      "name": "Kunal Shah",
+      "dept_id": 4,
+      "cgpa": 7.4,
+      "email": "kunal@example.edu"
+    }
+  ],
+  "Company": [
+    {
+      "company_id": 1,
+      "name": "TCS",
+      "sector": "Technology",
+      "hr_contact": "tcs@example.com"
+    },
+    {
+      "company_id": 2,
+      "name": "Infosys",
+      "sector": "Technology",
+      "hr_contact": "infosys@example.com"
+    },
+    {
+      "company_id": 3,
+      "name": "Wipro",
+      "sector": "Technology",
+      "hr_contact": "wipro@example.com"
+    },
+    {
+      "company_id": 4,
+      "name": "Accenture",
+      "sector": "Technology",
+      "hr_contact": "accenture@example.com"
+    },
+    {
+      "company_id": 5,
+      "name": "Cognizant",
+      "sector": "Technology",
+      "hr_contact": "cognizant@example.com"
+    }
+  ],
+  "Drive": [
+    {
+      "drive_id": 101,
+      "company_id": 1,
+      "role": "Analyst",
+      "ctc": 6.5,
+      "drive_date": "2026-08-11",
+      "min_cgpa": 7
+    },
+    {
+      "drive_id": 102,
+      "company_id": 2,
+      "role": "SDE",
+      "ctc": 7.2,
+      "drive_date": "2026-08-12",
+      "min_cgpa": 7
+    },
+    {
+      "drive_id": 103,
+      "company_id": 3,
+      "role": "SDE",
+      "ctc": 6,
+      "drive_date": "2026-08-13",
+      "min_cgpa": 7
+    },
+    {
+      "drive_id": 104,
+      "company_id": 4,
+      "role": "Consultant",
+      "ctc": 8,
+      "drive_date": "2026-08-14",
+      "min_cgpa": 7
+    },
+    {
+      "drive_id": 105,
+      "company_id": 5,
+      "role": "SDE",
+      "ctc": 6.8,
+      "drive_date": "2026-08-15",
+      "min_cgpa": 7
+    }
+  ],
+  "Application": [
+    {
+      "application_id": 1,
+      "student_id": 1,
+      "drive_id": 101,
+      "status": "Selected"
+    },
+    {
+      "application_id": 2,
+      "student_id": 2,
+      "drive_id": 102,
+      "status": "Interview"
+    },
+    {
+      "application_id": 3,
+      "student_id": 3,
+      "drive_id": 103,
+      "status": "Rejected"
+    },
+    {
+      "application_id": 4,
+      "student_id": 4,
+      "drive_id": 104,
+      "status": "Selected"
+    },
+    {
+      "application_id": 5,
+      "student_id": 5,
+      "drive_id": 105,
+      "status": "Applied"
+    }
+  ],
+  "Interview": [
+    {
+      "interview_id": 1,
+      "application_id": 2,
+      "round_no": 1,
+      "result": "Pending"
+    }
+  ],
+  "Placement": [
+    {
+      "placement_id": 1,
+      "application_id": 1,
+      "package": 6.5,
+      "placement_date": "2026-08-11"
+    },
+    {
+      "placement_id": 2,
+      "application_id": 4,
+      "package": 8,
+      "placement_date": "2026-08-14"
+    }
+  ]
+}

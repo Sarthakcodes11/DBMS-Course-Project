@@ -1,0 +1,1 @@
+Source code lives at repository root (app.py, web/, config.json). Add your own UI demo PPT/PDF and actual screenshots of all seven record screens, insert/delete/view, and database before/after states here. Use the MySQL-connected local app for your assessed presentation.
