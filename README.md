@@ -1,10 +1,10 @@
 # Campus Placement & Recruitment Drive Management System
 A relational DBMS application covering students, departments, companies, drives, applications, interviews and placement offers.
 
-Student name: **fill in your name**  
-Roll number: **fill in your roll number**  
-Course / faculty: **fill in your details**
-
+Student Name: **Sarthak Kulkarni**  
+Roll Number: **25WU0102247**  
+Course / Section: **AIML Whales (B.Tech AIML)**  
+Project Title: **Design and Implementation of a Database Management System for Campus Placement and Recruitment Drive Management**
 The supplied placement slides name Sarthak Kulkarni (25WU0102247). This project leaves author details blank rather than assuming that is your identity.
 
 ## Windows setup (MySQL demo)
